@@ -1,0 +1,35 @@
+article {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  align-items: baseline;
+  
+    h1{
+      grid-column: 1/3;
+      display: grid;
+      justify-content: end;
+    
+    }
+    img {
+      height: 150px;
+      width: 150px;
+    }
+    .ras {
+      grid-column: 1/1;
+      padding: 0;
+      gap: 10px;
+    }
+    .dva {
+      grid-column: 2/2;
+      gap: 10px;
+    }
+    .thry{
+      grid-column:3/3;
+      gap: 10px;
+    }
+    p {
+     padding: 0 5%;
+    }
+}
